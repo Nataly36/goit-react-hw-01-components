@@ -13,10 +13,10 @@ background-color:#FFF5EE;
 `;
 
 export const Title = styled.h2`
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
-  color: blue;
-
+  color: #2F4F4F;
+  text-transform:uppercase;
   text-align: center;
 `;
 
@@ -24,17 +24,26 @@ export const StatList = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
-   background-color:#1E90FF;
-  margin-right:0;
+  background-color:#1E90FF;
 `;
 
 export const StatListItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-  // gap: 5px;
-
-  
+  gap: 5px;
+:last-child {
+  background-color:#0000FF;
+  }
+  :first-child {
+background-color:#0000FF;
+  }
+  :nth-child(2){
+    background-color:#FF00FF;
+  }
+  :nth-child(3){
+    background-color:#800000;
+  }
  
   
 
@@ -44,11 +53,7 @@ export const StatListItem = styled.li`
   padding-left: 10px;
   }
 
-  // :last-child {
-  //  background-color:#00FFFF;
-  }
-
-  // background-color: #2F4F4F;
+  
 `;
 
 export const Label = styled.span`

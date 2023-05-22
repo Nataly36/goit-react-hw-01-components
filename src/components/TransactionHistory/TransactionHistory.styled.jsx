@@ -39,7 +39,7 @@ export const ExtendedTr = styled(Tr)`
 
 export const Th = styled.th`
   padding: 0.5rem 0;
-  padding-left: 5px;
+ 
   text-align: left;
 
  
